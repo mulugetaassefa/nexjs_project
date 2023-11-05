@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-//import './theme-config.css';
+import './theme-config.css';
 import '@radix-ui/themes/styles.css';
 import { Inter } from 'next/font/google'
 import './globals.css'
@@ -31,7 +31,7 @@ export default function RootLayout({
         <main className='p-s'>
         {children}
         </main>
-        <ThemePanel />
+       
         </Theme>
         </body>
     </html>
